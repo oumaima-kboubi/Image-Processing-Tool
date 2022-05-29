@@ -1,9 +1,6 @@
 import tkinter as tk
-from tkinter import Label, ttk, filedialog, messagebox
-from pathlib import Path
-import numpy as np
+from tkinter import filedialog, messagebox
 from PIL import ImageTk, Image
-import pytesseract as tess
 from image_processing_tool.contrast import linear_transformation, saturated_transformation
 from image_processing_tool.filters import filer_average, filer_median, noise, signal_to_Noise_Ratio
 from image_processing_tool.imageIO import readImagePgm 
